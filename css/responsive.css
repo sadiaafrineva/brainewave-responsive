@@ -1,0 +1,1099 @@
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (galaxi Fold)
+  ##Screen = B/w 279px to 319px
+*/
+@media (min-width:279px) and (max-width:319px){
+  /* CSS start */
+
+
+/* CSS end */
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+/* CSS start */
+
+ /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+.header .navbar-toggler {
+    border: 1px solid #473BF0;
+    border-radius: 3px;
+}
+.header .navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 5px #473BF0;
+  background: #473BF0;
+}
+.header .navbar-toggler .fa{
+  color: #473BF0;
+  font-size: 30px;
+}
+.header .navbar-toggler:focus .fa{
+color: #fff;
+}
+
+ /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link {
+      margin: 0px;
+      font-size: 15px;
+    }
+    .header .navbar-nav .nav-item .btn-info {
+      margin: 10px 0px 0px;
+      font-size: 15px;
+    }
+/* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner{
+      padding: 35px 0px 0px;
+  }
+  .banner-inner {
+    padding: 10px 0px;
+  }
+  .banner-inner .img-fluid{
+    max-width: 100%;
+    height:auto ;
+    margin: 0px 0px 0px;
+  }
+ .img-fluid {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0px 0px 0px;
+}
+
+  .banner-inner h1{
+        width: 100%;
+        font-size: 26px;
+        line-height: 1.3em;
+        margin: 0px 0px 10px 0px;
+  }
+  .banner-inner p {
+    width: 99%;
+    margin:0px 0px 10px 0px ;
+    font-size: 14px;
+  }
+.banner-inner .btn-info {
+      font-size: 13px;
+      margin: 5px 0px 0px;
+}
+.banner-inner .link {
+  margin: 10px 0px 0px 0px;
+  font-size: 12px;
+
+}
+ /* ==========================
+        ** Alert Start **
+    ============================= */
+.alert-section {
+  padding: 20px 0px;
+}
+.alert-section p {
+  font-size: 12px;
+}
+ /* ==========================
+        ** expert-section Start **
+    ============================= */
+.expert-section {
+  padding: 35px 0px;
+}
+.expert-section .expert-inner {
+  padding: 0px 0px 35px;
+}
+.expert-section .expert-inner h2 {
+  font-size: 26px;
+  margin: 0px 0px 10px 0px;
+ 
+}
+.expert-section .expert-inner p {
+  width: 100%;
+  font-size: 16px;
+  margin: 0px 0px 10px 0px;
+  
+}
+.expert-section .expert-inner .btn-info {
+  padding: 10px 15px;
+  margin: 10px 0px 0px 0px;
+  font-size: 13px;
+
+}
+.expert-section .img-fluid {
+  width: 100%;
+}
+.expert-section .expert-right h2 {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1em;
+}
+.expert-section .expert-right p {
+  width: 95%;
+  font-size: 17px;
+}
+    /* ==========================      
+        ** Services Start **
+    ============================= */
+    .services{
+      padding: 30px 0px;
+    }
+    .title {
+      width: 100%;
+      padding: 0px 0px 30px;
+      text-align: center;
+  }
+
+    .services .title h1{
+    font-size: 30px;
+    margin-bottom: 15px;
+    }
+    .services .title p {
+  width: 100%;
+  font-size: 17px;
+
+    }
+ .service-box{
+  margin: 10px 0px;
+ 
+}
+.service-box p {
+  width: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px 0px 20px;
+  line-height: 1.7em;
+  color: #161C2D;
+}
+
+  .service-box h4{
+    font-size: 16px;
+  }
+  .service-box .img-fluid{
+  width: 100%;
+  }
+  
+   /* ==========================
+        **reason-section start  **
+    ============================= */
+    .reason{
+     padding: 15px 0px;
+     margin: 0px 0px;
+    }
+    .reason .reason-man  .img-fluid{
+      width: 100%;
+    }
+    .reason-inner{
+      padding: 0px 0px 10px;
+    }
+
+    .reason-inner h2{
+     width: 100%;
+      font-size: 26px;
+      margin-top: 15px;
+  }
+  .reason-inner p{
+  width: 100%;
+  font-size: 13px;
+  }
+  .reason p{
+font-size:13px ;
+  }
+  .reason p .fa{
+    margin: 0px 15px 0px 0px;
+  }
+   /* ==========================
+        ** Video section Start **
+    ============================= */
+    
+ .video {
+  margin: auto;
+  padding: 60px 0px;
+  margin-top: 10px;
+}
+    .video h2{
+       width: 100%;
+      font-size: 26px;
+    }
+    .video p{
+       font-size: 17px;
+       width: 100%;
+    }
+    
+    .video-inner .play-button{
+      margin: 0px 0px 10px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 18px;
+  }
+   /* ==========================
+     ** Testimonials section Start **
+    ============================= */
+    .testimonial {
+      width: 100%;
+      padding: 30px 0px;
+  }
+  .testimonial  .title {
+    width: 100%;
+    padding: 0px 0px 40px;
+}
+  .testimonial .title h1{
+  width: 100%;
+  font-size: 27px;
+  line-height: 1.4em;
+  }
+  .testimonial .title p {
+    width: 100%;
+    font-size: 17px;
+
+  }
+  .client-box{
+    width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: 2px solid #E7E9ED;
+        border-radius: 10px;
+        margin-left: 0px;
+        transition: 0.5s ease-in;
+        margin-bottom: 20px;
+  }
+  .client-box .img-client {
+    width: 58px;
+    height: 58px;
+    margin: 30px 10px;
+}
+      .client-box p {
+        width: 100%;
+      font-size: 17px;
+        font-weight: 300;
+        line-height: 1.7em;
+        margin-bottom: 16px;
+        
+      }
+      .client-box p .name{
+        font-size: 13px;
+      }
+      .client-box p .info{
+       font-size: 13px;
+      }
+      /* ==========================
+        **  ready section start **
+    ============================= */
+      .ready {
+       width: 100%;
+       padding: 20px 0px;
+    }
+    .ready  .left-box h1{
+        width: 100%;
+        font-size: 27px;
+        font-weight: 600;
+        color: #fff;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .right-box .btn-info {
+      padding: 10px 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #161C2D;
+      font-weight: 600;
+      transition: 1s ease-in-out;
+      margin:10px 70px 30px;
+    }
+    .footer{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        background: #161C2D;
+       margin: auto;
+    }
+    .footer  .img-fluid{
+      margin: 15px 0px;
+    }
+    .footer  .inner p{
+      color: #797C86;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 1.7em;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      width: 80%;
+    }
+    .footer  .inner .icons{
+      width: 100%;
+      margin: -30px 0px 0px 0px;
+    }
+    .inner .icons li a:hover, .inner .icons li a:focus {
+      color: #68D585;
+   }
+    .inner-list p {
+      font-size: 13px;
+      padding-bottom: 0px;
+      padding-top: 20px;
+    }
+    .inner-list ul {
+      padding-right: 5px;
+      margin-top: -10px;
+    }
+    .inner-list ul li {
+   width: 100%;
+   padding: 0px 0px 15px 0px;
+
+    }
+    .footer .inner-list ul li a {
+      font-size: 13px;
+      padding: 0;
+    }
+
+/* CSS end */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px){
+  /* CSS  start */
+ /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+    .header .navbar-toggler {
+      border: 1px solid #473BF0;
+      border-radius: 3px;
+  }
+  .header .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 5px #473BF0;
+    background: #473BF0;
+  }
+  .header .navbar-toggler .fa{
+    color: #473BF0;
+    font-size: 30px;
+  }
+  .header .navbar-toggler:focus .fa{
+  color: #fff;
+  }
+ /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link {
+      margin: 0px;
+      font-size: 15px;
+    }
+    .header .navbar-nav .nav-item .btn-info {
+      margin: 10px 0px 0px;
+      font-size: 15px;
+    }
+     /* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner{
+      padding: 40px 0px;
+  }
+  .banner  .img-fluid{
+        max-width: 100%;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 0px
+  }
+
+  .banner-inner {
+    padding: 15px 0px 40px;
+  }
+  .banner-inner h1{
+        width: 100%;
+        font-size: 44px;
+        line-height: 1.3em;
+        margin: 0px 0px 15px 0px;
+  }
+  .banner-inner p {
+    width: 100%;
+    margin:0px 0px 15px 0px ;
+    font-size: 18px;
+  }
+.banner-inner .btn-info {
+      font-size: 14px;
+      margin: 10px 0px 0px;
+}
+.banner-inner .link {
+  margin: 15px 0px 0px 0px;
+  font-size: 13px;
+
+}
+/* ==========================
+        ** Alert Start **
+    ============================= */
+    .alert-section {
+      padding: 25px 0px;
+      margin-top: -40px;
+    }
+    .alert-section p {
+      font-size: 19px;
+      font-weight: 300;
+      margin: auto;
+  }
+  
+     /* ==========================
+            ** expert-section Start **
+        ============================= */
+    .expert-section {
+      padding: 35px 0px;
+    }
+    .expert-section .expert-inner {
+      padding: 0px 0px 20px;
+  }
+    .expert-section .expert-inner h2 {
+      font-size: 26px;
+      margin: 0px 0px 10px 0px;
+     
+    }
+    .expert-section .expert-inner p {
+      width: 100%;
+      font-size: 17px;
+      margin: 0px 0px 10px 0px;
+      
+    }
+    .expert-section .expert-inner .btn-info {
+      padding: 10px 15px;
+      margin: 10px 0px 0px 0px;
+      font-size: 13px;
+    
+    }
+    .expert-section .img-fluid {
+      width: 100%;
+    }
+    .expert-section  .expert-right{
+      width: 100%;
+      padding: 0px ;
+      margin-top:-10px ;
+
+    }
+    .expert-section .expert-right h2 {
+      padding-top: 0px;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1em;
+    }
+    .expert-section .expert-right p {
+      width: 95%;
+      font-size: 17px;
+    }
+        /* ==========================      
+            ** Services Start **
+        ============================= */
+        .title {
+          width: 100%;
+          padding: 0px 0px 30px;
+        }
+      
+        .services{
+          padding: 50px 0px;
+        }
+        .services .title h1{
+          font-size: 32px;
+          margin-bottom: 15px;
+          }
+       .services .title p {
+      width: 100%;
+      font-size: 17px;
+    
+        }
+     .service-box{
+      width: 100%;
+      padding:0px 10px ;
+     
+   }
+      .service-box h4{
+        font-size: 21px;
+        font-weight: bold;
+        margin-top: 30px;
+
+      }
+      .service-box p{
+        width: 100%;
+        font-size: 17px;
+      }
+      .service-box .img-fluid{
+      width: 100%;
+      }
+       /* ==========================
+            **reason-section start  **
+        ============================= */
+        .reason{
+       width: 100%;
+       padding: 10px;
+       padding-bottom: 260px ;
+      
+      }
+        .reason .reason-man  .img-fluid{
+          width: 100%
+        }
+        .reason-inner{
+          padding: 20px 0px 0px;
+        }
+    
+        .reason-inner h2{
+         width: 100%;
+          font-size: 32px;
+          margin-top: -35px;
+          margin-bottom: 17px;
+      }
+      .reason-inner p{
+        width: 100%;
+        font-size: 16px !important;
+        margin-bottom: 15px ;
+    }
+      
+      .reason p{
+    font-size:16px ;
+    font-weight: bold;
+   
+      }
+      .reason p .fa{
+        margin: 0px 15px 0px 0px;
+      }
+       /* ==========================
+            ** Video section Start **
+        ============================= */
+        
+     .video {
+      margin: auto;
+      padding: 40px 0px;
+      margin-top: 10px;
+    }
+        .video h2{
+           width: 100%;
+          font-size: 26px;
+        }
+        .video p{
+           font-size: 17px;
+           width: 100%;
+        }
+        
+        .video-inner .play-button{
+          margin: 0px 0px 10px;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          font-size: 19px;
+      }
+       /* ==========================
+         ** Testimonials section Start **
+        ============================= */
+        .testimonial {
+          width: 100%;
+          padding: 30px 0px;
+      }
+      .testimonial  .title {
+        width: 100%;
+        padding: 0px 0px 60px;
+    }
+      .testimonial .title h1{
+      width: 100%;
+      font-size: 32px;
+      line-height: 1.4em;
+     
+      }
+      .testimonial .title p {
+        width: 100%;
+        font-size: 17px;
+    margin-bottom:-17px ;
+      }
+      .client-box{
+        width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: 2px solid #E7E9ED;
+            border-radius: 10px;
+            margin-left: 0px;
+            transition: 0.5s ease-in;
+            margin-bottom: 20px;
+      }
+      .client-box .img-client {
+        width: 58px;
+        height: 58px;
+        margin:20px 5px 20px 0px;
+    }
+          .client-box p {
+            width: 100%;
+          font-size: 18px;
+            font-weight: 300;
+            line-height: 1.7em;
+            margin-bottom: 16px;
+            
+          }
+          .client-box p .name{
+            font-size: 16px;
+          }
+          .client-box p .info{
+           font-size: 16px;
+           margin-left: 1px;
+          }
+          /* ==========================
+            **  ready section start **
+        ============================= */
+          .ready {
+           width: 100%;
+           padding: 20px 0px;
+        }
+        .ready  .left-box h1{
+            width: 100%;
+            font-size: 27px;
+            font-weight: 600;
+            color: #fff;
+            text-align: center;
+            margin-right: 0px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        .right-box .btn-info {
+          padding: 11px 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          font-size: 14px;
+          color: #161C2D;
+          font-weight: 600;
+          transition: 1s ease-in-out;
+          margin: 0px 150px 20px;
+        }
+        .footer{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            background: #161C2D;
+           margin: auto;
+        }
+        .footer  .img-fluid{
+          margin: 15px 0px;
+        }
+        .footer .inner {
+          width: 100%;
+          padding: 15px 0px 0px 0px;
+      }
+
+        .footer  .inner p{
+          color: #797C86;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 1.7em;
+          padding-top: 10px;
+          padding-bottom: 0px;
+          width: 80%;
+        }
+        .footer  .inner .icons{
+          width: 100%;
+          margin: -30px 0px 0px 0px;
+        }
+        .inner .icons li a:hover, .inner .icons li a:focus {
+          color: #68D585;
+       }
+        .inner-list p {
+          font-size: 13px;
+          padding-bottom: 0px;
+          padding-top: 20px;
+        }
+        .inner-list ul {
+          padding-right: 5px;
+          margin-top: -10px;
+      }
+        .inner-list ul li {
+       width: 100%;
+       padding: 0px 0px 15px 0px;
+    
+        }
+        .footer .inner-list ul li a {
+          font-size: 13px;
+        }
+ /* CSS  end  */
+      }     
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width:768px) and (max-width:1024px){
+    /* CSS  start */
+ /* ==========================
+        ** Navber Toggler Start **
+    ============================= */
+    .header .navbar-toggler {
+      border: 1px solid #473BF0;
+      border-radius: 3px;
+  }
+  .header .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 5px #473BF0;
+    background: #473BF0;
+  }
+  .header .navbar-toggler .fa{
+    color: #473BF0;
+    font-size: 30px;
+  }
+  .header .navbar-toggler:focus .fa{
+  color: #fff;
+  }
+ /* ==========================
+        ** Header Menu Start **
+    ============================= */
+    .header .navbar .navbar-nav .nav-item .nav-link {
+      margin: 0px;
+      font-size: 15px;
+    }
+    .header .navbar-nav .nav-item .btn-info {
+      margin: 10px 0px 0px;
+      font-size: 15px;
+    }
+     /* ==========================
+        ** Banner Start **
+    ============================= */
+    .banner{
+      padding: 40px 0px;
+  }
+  .banner  .img-fluid{
+        max-width: 100%;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 0px
+  }
+
+  .banner-inner {
+    padding: 15px 0px 40px;
+  }
+  .banner-inner h1{
+        width: 80%;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 1.3em;
+        margin: 30px 0px 15px 0px;
+  }
+  .banner-inner p {
+    width: 65%;
+    margin:0px 0px 15px 0px ;
+    font-size: 19px;
+    font-weight: 400;
+  }
+.banner-inner .btn-info {
+      font-size: 14px;
+      margin: 10px 0px 0px;
+}
+.banner-inner .link {
+  margin: 15px 0px 0px 0px;
+  font-size: 13px;
+
+}
+/* ==========================
+        ** Alert Start **
+    ============================= */
+    .alert-section {
+      padding: 25px 0px;
+      margin-top: -40px;
+    }
+    .alert-section p {
+      font-size: 19px;
+      font-weight: 300;
+      margin: auto;
+  }
+  
+     /* ==========================
+            ** expert-section Start **
+        ============================= */
+    .expert-section {
+      padding: 80px 0px;
+    }
+    .expert-section .expert-inner {
+      padding: 0px 0px 30px;
+  }
+    .expert-section .expert-inner h2 {
+      width: 50%;
+      font-size: 35px;
+      margin: 0px 0px 15px 0px;
+     
+    }
+    .expert-section .expert-inner p {
+      width: 50%;
+      font-size: 19px;
+      margin: 0px 0px 10px 0px;
+      
+    }
+    .expert-section .expert-inner .btn-info {
+      padding: 10px 15px;
+      margin: 10px 0px 0px 0px;
+      font-size: 13px;
+    
+    }
+    .expert-section .img-fluid {
+    max-width: 100%; 
+    }
+    .expert-section  .expert-right{
+      width: 100%;
+      padding: 0px ;
+      margin-top:-10px ;
+
+    }
+    .expert-section .expert-right h2 {
+      padding-top: 0px;
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 1em;
+      margin: 0px 0px 20px 0px;
+    }
+    .expert-section .expert-right p {
+      width: 60%;
+      font-size: 19px;
+      margin-bottom:30px ;
+    }
+        /* ==========================      
+            ** Services Start **
+        ============================= */
+        .title {
+          width: 100%;
+          padding: 0px 0px 30px;
+        }
+      
+        .services{
+          padding: 50px 0px;
+        }
+        .services .title h1{
+          font-size: 35px;
+          margin-bottom: 20px;
+          font-weight: 800;
+          }
+       .services .title p {
+      width: 80%;
+      font-size: 19px;
+    
+        }
+     .service-box{
+      width: 100%;
+      padding:0px 10px ;
+     
+   }
+      .service-box h4{
+        font-size: 30px;
+       
+        margin-top: 30px;
+
+      }
+      .service-box p{
+        width: 80%;
+        font-size: 19px;
+        font-weight: 400;
+      }
+      .service-box .img-fluid{
+      width: 100%;
+      }
+       /* ==========================
+            **reason-section start  **
+        ============================= */
+        .reason{
+       width: 100%;
+       padding: 40px;
+       padding-bottom: 260px ;
+      
+      }
+        .reason .reason-man  .img-fluid{
+        max-width: 100%
+        }
+        .reason-inner{
+          padding: 20px 0px 0px;
+        }
+    
+        .reason-inner h2{
+         width: 80%;
+          font-size: 40px;
+          font-weight: bold;
+          margin-top: -35px;
+          margin-bottom: 17px;
+      }
+      .reason-inner p{
+        width: 100%;
+        font-size: 16px !important;
+        margin-bottom: 15px ;
+    }
+      
+      .reason p{
+        width: 80%;
+    font-size:19px !important ;
+    font-weight: bold !important;
+    margin-bottom: 50px;
+   
+      }
+      .reason p .fa{
+        margin: 0px 15px 0px 0px;
+      }
+       /* ==========================
+            ** Video section Start **
+        ============================= */
+        
+     .video {
+      margin: auto;
+      padding: 40px 0px;
+      margin-top: 10px;
+    }
+        .video h2{
+           width: 100%;
+          font-size: 30px;
+        }
+        .video p{
+           font-size: 17px;
+           width: 70%;
+        }
+        
+        .video-inner .play-button{
+          margin: 0px 0px 10px;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+          font-size: 19px;
+      }
+       /* ==========================
+         ** Testimonials section Start **
+        ============================= */
+        .testimonial {
+          width: 100%;
+          padding: 30px 0px;
+      }
+      .testimonial  .title {
+        width: 100%;
+        padding: 0px 0px 60px;
+    }
+      .testimonial .title h1{
+      width: 100%;
+      font-size: 32px;
+      line-height: 1.4em;
+     
+      }
+      .testimonial .title p {
+        width: 70%;
+        font-size: 17px;
+    margin-bottom:-17px ;
+      }
+      .client-box{
+        width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: 2px solid #E7E9ED;
+            border-radius: 10px;
+            margin-left: 0px;
+            transition: 0.5s ease-in;
+            margin-bottom: 20px;
+      }
+      .client-box .img-client {
+        width: 58px;
+        height: 58px;
+        margin:20px 5px 20px 0px;
+    }
+          .client-box p {
+            width: 79%;
+          font-size: 18px;
+            font-weight: 300;
+            line-height: 1.7em;
+            margin-bottom: 16px;
+            
+          }
+          .client-box p .name{
+            font-size: 16px;
+          }
+          .client-box p .info{
+           font-size: 16px;
+           margin-left: 1px;
+          }
+          /* ==========================
+            **  ready section start **
+        ============================= */
+          .ready {
+           width: 100%;
+           padding: 20px 0px;
+        }
+        .ready  .left-box h1{
+            width: 100%;
+            font-size: 27px;
+            font-weight: 600;
+            color: #fff;
+            text-align: center;
+            margin-right: 0px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+        .right-box .btn-info {
+          padding: 11px 20px;
+          background-color: #fff;
+          border-radius: 8px;
+          font-size: 14px;
+          color: #161C2D;
+          font-weight: 600;
+          transition: 1s ease-in-out;
+          margin: 0px 265px 20px;
+        }
+        .footer{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 0px;
+            background: #161C2D;
+           margin: auto;
+        }
+        .footer  .img-fluid{
+          margin: 15px 0px;
+        }
+        .footer .inner {
+          width: 100%;
+          padding: 15px 0px 0px 0px;
+      }
+
+        .footer  .inner p{
+          color: #797C86;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 1.7em;
+          padding-top: 10px;
+          padding-bottom: 0px;
+          width: 55%;
+        }
+        .footer  .inner .icons{
+          width: 100%;
+          margin: -30px 0px 0px 0px;
+        }
+        .inner .icons li a:hover, .inner .icons li a:focus {
+          color: #68D585;
+       }
+        .inner-list p {
+          font-size: 13px;
+          padding-bottom: 0px;
+          padding-top: 20px;
+        }
+        .inner-list ul {
+          padding-right: 5px;
+          margin-top: -10px;
+      }
+        .inner-list ul li {
+       width: 100%;
+       padding: 0px 0px 15px 0px;
+    
+        }
+        .footer .inner-list ul li a {
+          font-size: 13px;
+        }
+
+      }
+
